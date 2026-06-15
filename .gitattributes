@@ -1,15 +1,1 @@
-# Laravel Blade
-*.blade.php linguist-language=Blade
 
-# PHP файли
-*.php linguist-language=PHP
-
-# Не враховувати vendor
-vendor/** linguist-vendored
-
-# Не враховувати кеші та згенеровані файли
-bootstrap/cache/** linguist-generated
-storage/** linguist-generated
-
-# Не враховувати node_modules
-node_modules/** linguist-vendored
